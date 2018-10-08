@@ -118,52 +118,52 @@
   },
   "emph":{
     "command":"emph",
-    "snippet":"emph{${1}}"
+    "snippet":"emph{${1}}${0}"
   },
   "textbf":{
     "command":"textbf",
-    "snippet":"textbf{${1}}"
+    "snippet":"textbf{${1}}${0}"
   },
   "textit":{
     "command":"textit",
-    "snippet":"textit{${1}}"
+    "snippet":"textit{${1}}${0}"
   },
   "textmd":{
     "command":"textmd",
-    "snippet":"textmd{${1}}"
+    "snippet":"textmd{${1}}${0}"
   },
   "textnormal":{
     "command":"textnormal",
-    "snippet":"textnormal{${1}}"
+    "snippet":"textnormal{${1}}${0}"
   },
   "textrm":{
     "command":"textrm",
-    "snippet":"textrm{${1}}"
+    "snippet":"textrm{${1}}${0}"
   },
   "textsc":{
     "command":"textsc",
-    "snippet":"textsc{${1}}"
+    "snippet":"textsc{${1}}${0}"
   },
   "textsf":{
     "command":"textsf",
-    "snippet":"textsf{${1}}"
+    "snippet":"textsf{${1}}${0}"
   },
   "textsl":{
     "command":"textsl",
-    "snippet":"textsl{${1}}",
+    "snippet":"textsl{${1}}${0}",
     "detail":"slanted text"
   },
   "texttt":{
     "command":"texttt",
-    "snippet":"texttt{${1}}"
+    "snippet":"texttt{${1}}${0}"
   },
   "textup":{
     "command":"textup",
-    "snippet":"textup{${1}}"
+    "snippet":"textup{${1}}${0}"
   },
   "label":{
     "command":"label{...}",
-    "snippet":"label{${1}}"
+    "snippet":"label{${1}}${0}"
   },
   "cref":{
     "command":"cref",
@@ -172,17 +172,17 @@
   },
   "ref":{
     "command":"ref",
-    "snippet":"ref{${1}}",
+    "snippet":"ref{${1}}${0}",
     "postAction":"editor.action.triggerSuggest"
   },
   "cpageref":{
     "command":"cpageref",
-    "snippet":"cpageref{$1}",
+    "snippet":"cpageref{$1}${0}",
     "postAction":"editor.action.triggerSuggest"
   },
   "pageref":{
     "command":"pageref",
-    "snippet":"pageref{$1}",
+    "snippet":"pageref{$1}${0}",
     "postAction":"editor.action.triggerSuggest"
   },
   "author":{
@@ -195,15 +195,15 @@
   },
   "hspace":{
     "command":"hspace",
-    "snippet":"hspace{${1:l}}"
+    "snippet":"hspace{${1:l}}${0}"
   },
   "vspace":{
     "command":"vspace",
-    "snippet":"vspace{${1:l}}"
+    "snippet":"vspace{${1:l}}${0}"
   },
   "usepackage":{
     "command":"usepackage",
-    "snippet":"usepackage{$1}",
+    "snippet":"usepackage{$1}${0}",
     "postAction":"editor.action.triggerSuggest"
   },
   "item":{
@@ -297,15 +297,15 @@
   },
   "text":{
     "command":"text",
-    "snippet":"text{$1}"
+    "snippet":"text{$1}${0}"
   },
   "sqrt":{
     "command":"sqrt",
-    "snippet":"sqrt{$1}"
+    "snippet":"sqrt{$1}${0}"
   },
   "frac":{
     "command":"frac",
-    "snippet":"frac{$1}{$2}"
+    "snippet":"frac{$1}{$2}${0}"
   },
   "bar":{
     "command":"bar",
@@ -313,19 +313,19 @@
   },
   "alpha":{
     "command":"alpha",
-    "detail":"α, shortcut @a"
+    "detail":"α"
   },
   "beta":{
     "command":"beta",
-    "detail":"β, shortcut @b"
+    "detail":"β"
   },
   "chi":{
     "command":"chi",
-    "detail":"χ, shortcut @c"
+    "detail":"χ"
   },
   "delta":{
     "command":"delta",
-    "detail":"δ, shortcut @d"
+    "detail":"δ"
   },
   "epsilon":{
     "command":"epsilon",
@@ -333,67 +333,67 @@
   },
   "varepsilon":{
     "command":"varepsilon",
-    "detail":"ε, shortcut @e"
+    "detail":"ε"
   },
   "eta":{
     "command":"eta",
-    "detail":"η, shortcut @h"
+    "detail":"η"
   },
   "gamma":{
     "command":"gamma",
-    "detail":"γ, shortcut @g"
+    "detail":"γ"
   },
   "iota":{
     "command":"iota",
-    "detail":"ι, shortcut @i"
+    "detail":"ι"
   },
   "kappa":{
     "command":"kappa",
-    "detail":"κ, shortcut @k"
+    "detail":"κ"
   },
   "lambda":{
     "command":"lambda",
-    "detail":"λ, shortcut @l"
+    "detail":"λ"
   },
   "mu":{
     "command":"mu",
-    "detail":"μ, shortcut @m"
+    "detail":"μ"
   },
   "nu":{
     "command":"nu",
-    "detail":"ν, shortcut @n"
+    "detail":"ν"
   },
   "omega":{
     "command":"omega",
-    "detail":"ω, shortcut @o"
+    "detail":"ω"
   },
   "phi":{
     "command":"phi",
-    "detail":"ϕ, shortcut @f"
+    "detail":"ϕ"
   },
   "pi":{
     "command":"pi",
-    "detail":"π, shortcut @p"
+    "detail":"π"
   },
   "psi":{
     "command":"psi",
-    "detail":"ψ, shortcut @y"
+    "detail":"ψ"
   },
   "rho":{
     "command":"rho",
-    "detail":"ρ, shortcut @r"
+    "detail":"ρ"
   },
   "sigma":{
     "command":"sigma",
-    "detail":"σ, shortcut @s"
+    "detail":"σ"
   },
   "tau":{
     "command":"tau",
-    "detail":"τ, shortcut @t"
+    "detail":"τ"
   },
   "theta":{
     "command":"theta",
-    "detail":"θ, shortcut @q"
+    "detail":"θ"
   },
   "vartheta":{
     "command":"vartheta",
@@ -401,59 +401,59 @@
   },
   "upsilon":{
     "command":"upsilon",
-    "detail":"υ, shortcut @u"
+    "detail":"υ"
   },
   "xi":{
     "command":"xi",
-    "detail":"ξ, shortcut @x"
+    "detail":"ξ"
   },
   "zeta":{
     "command":"zeta",
-    "detail":"ζ, shortcut @z"
+    "detail":"ζ"
   },
   "Delta":{
     "command":"Delta",
-    "detail":"Δ, shortcut @D"
+    "detail":"Δ"
   },
   "Gamma":{
     "command":"Gamma",
-    "detail":"Γ, shortcut @G"
+    "detail":"Γ"
   },
   "Lambda":{
     "command":"Lambda",
-    "detail":"Λ, shortcut @L"
+    "detail":"Λ"
   },
   "Omega":{
     "command":"Omega",
-    "detail":"Ω, shortcut @W"
+    "detail":"Ω"
   },
   "Phi":{
     "command":"Phi",
-    "detail":"Φ, shortcut @F"
+    "detail":"Φ"
   },
   "Pi":{
     "command":"Pi",
-    "detail":"Π, shortcut @P"
+    "detail":"Π"
   },
   "Psi":{
     "command":"Psi",
-    "detail":"Ψ, shortcut @Y"
+    "detail":"Ψ"
   },
   "Sigma":{
     "command":"Sigma",
-    "detail":"Σ, shortcut @S"
+    "detail":"Σ"
   },
   "Theta":{
     "command":"Theta",
-    "detail":"Θ, shortcut @Q"
+    "detail":"Θ"
   },
   "Upsilon":{
     "command":"Upsilon",
-    "detail":"Υ, shortcut @U"
+    "detail":"Υ"
   },
   "Xi":{
     "command":"Xi",
-    "detail":"Ξ, shortcut @X"
+    "detail":"Ξ"
   },
   "exists":{
     "command":"exists",
@@ -573,7 +573,7 @@
   },
   "dot":{
     "command":"dot",
-    "snippet":"dot{$1}"
+    "snippet":"dot{$1}${0}"
   },
   "cdot":{
     "command":"cdot",
@@ -581,15 +581,15 @@
   },
   "hat":{
     "command":"hat",
-    "snippet":"hat{$1}"
+    "snippet":"hat{$1}${0}"
   },
   "tilde":{
     "command":"tilde",
-    "snippet":"tilde{$1}"
+    "snippet":"tilde{$1}${0}"
   },
   "vec":{
     "command":"vec",
-    "snippet":"vec{$1}"
+    "snippet":"vec{$1}${0}"
   }
 
 }
