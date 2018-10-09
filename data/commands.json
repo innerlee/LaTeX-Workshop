@@ -313,6 +313,7 @@
   },
   "alpha":{
     "command":"alpha",
+    "preselect": true,
     "detail":"α"
   },
   "beta":{
